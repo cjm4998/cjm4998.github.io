@@ -35,7 +35,8 @@ $(function () {
     createPlatform(600,299,60,10)
     createPlatform(850,299,30,10)
     createPlatform(1186,299,30,10)
-
+    createPlatform(220,500,1000,10)
+    createPlatform(220,500,30,-200)
 
     // TODO 2
     // Create collectables
@@ -47,6 +48,8 @@ $(function () {
     createCollectable("database", 450, 150, 0, 0)
     createCollectable("database", 900, 190, 0, 0)
     createCollectable("database", 50, 700, 0, 0)
+    createCollectable("database", 1186, 190, 0, 0)
+    createCollectable("database", 220, 250, 0, 0)
     
     // TODO 3
     // Create cannons
